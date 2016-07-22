@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run start-server & npm run gulp",
-    "start-server": "python -m SimpleHTTPServer 3000",
+    "start-server": "python -m SimpleHTTPServer 5001",
     "gulp": "gulp"
   },
   "keywords": [
@@ -20,6 +20,7 @@
     "browserify": "13.0.0",
     "gulp": "3.9.1",
     "gulp-util": "3.0.7",
+    "phoenix_js": "0.0.3",
     "vinyl-source-stream": "1.1.0"
   }
 }
